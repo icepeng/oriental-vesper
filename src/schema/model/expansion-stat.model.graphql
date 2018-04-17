@@ -1,0 +1,10 @@
+type ExpansionStat {
+  survey: Survey!
+  data: ExpansionStatData!
+}
+
+type ExpansionStatData {
+  fun: [Int!]!
+  balance: [Int!]!
+  responseCount: Int!
+}

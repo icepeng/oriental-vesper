@@ -1,0 +1,12 @@
+type Survey {
+  id: Int!
+  createTime: String!
+  expansion: Expansion!
+  responses: [SurveyResponse!]
+  expansionStat: ExpansionStat
+  cardStats: [CardStat!]
+  startTime: String!
+  endTime: String
+  isPreRelease: Boolean!
+  status: String!
+}

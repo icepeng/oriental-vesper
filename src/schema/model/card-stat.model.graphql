@@ -1,0 +1,11 @@
+type CardStat {
+  survey: Survey!
+  card: Card!
+  data: CardStatData!
+}
+
+type CardStatData {
+  power: [Int!]!
+  generality: [Int!]!
+  responseCount: Int!
+}

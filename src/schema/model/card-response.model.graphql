@@ -1,0 +1,7 @@
+type CardResponse {
+  response: SurveyResponse!
+  card: Card!
+  power: Int!
+  generality: Int!
+  description: String
+}

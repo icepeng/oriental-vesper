@@ -1,0 +1,6 @@
+type User {
+  id: String!
+  createTime: String!
+  battletag: String!
+  responses: [SurveyResponse!]
+}

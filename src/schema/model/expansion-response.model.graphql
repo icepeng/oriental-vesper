@@ -1,0 +1,6 @@
+type ExpansionResponse {
+  response: SurveyResponse!
+  fun: Int!
+  balance: Int!
+  description: String
+}

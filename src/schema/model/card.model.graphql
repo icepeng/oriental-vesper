@@ -1,0 +1,9 @@
+type Card {
+  id: String!
+  expansion: Expansion!
+  responses: [CardResponse!]
+  stats: [CardStat!]
+  cost: Int!
+  class: String!
+  rarity: String!
+}

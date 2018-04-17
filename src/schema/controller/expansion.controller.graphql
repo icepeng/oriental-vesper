@@ -1,0 +1,4 @@
+type Query {
+    expansions: [Expansion]
+    expansion(code: String): Expansion
+}

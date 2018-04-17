@@ -1,0 +1,8 @@
+type SurveyResponse {
+  id: Int!
+  createTime: String!
+  survey: Survey!
+  user: User!
+  cardResponses: [CardResponse!]
+  expansionResponse: ExpansionResponse
+}
